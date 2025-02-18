@@ -1,0 +1,94 @@
+* {
+    background-color: black;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ header {
+     display: flex;
+     width: 100%;
+     background-color: black;
+     border :10px solid #ff90c7;
+     border-radius: 20px; 
+     justify-content: space-evenly;
+     padding: 20px;
+     margin: 0;
+ }
+ 
+ /*Type writer functionality*/
+ .typerContainer h1 {
+     color: white;
+     font-size: 75px;
+ }
+ .typerContainer span {
+     color:  #ff88c3;
+ }
+ 
+ .navbar ul {
+     display: flex;
+     justify-content: space-evenly;
+     list-style-type: none;
+     text-decoration: none;
+     align-items: center;
+ }
+ 
+ .navbar ul li a {
+     text-decoration: none; /* Removes underline */
+     color: #c06;
+     font-size: 35px;
+     padding: 10px 15px;
+ }
+ 
+ .navbar ul li a:hover {
+     background-color: #ff88c3;
+     padding: 10px 15px;
+     border-radius: 20px; /* Optional rounded corners */
+ }
+ 
+ .home {
+     width: 100%;
+     height: 100vh; /* Full screen height */
+     display: flex;
+     justify-content: center;
+     align-items: stretch;
+ }
+ 
+ .home_container {
+     display: flex;
+     flex-direction: column; /* Stack items vertically */
+     gap: 40px;
+     justify-content: center; /* Center vertically */
+     align-items: center; /* Center horizontally */
+ }
+ 
+ .main_info h1{
+     font-size: 90px;
+     text-align: center;
+     color: #c06;
+ }
+ 
+ .main_info h2{
+     font-size: 40px;
+     text-align: center;
+     color: #c06;
+ }
+ 
+ .profile_pic {
+     display: flex;
+     justify-content: center; /* Center horizontally */
+     align-items: center; /* Center vertically */
+     width: 300px; /* Adjust size as needed */
+     height: 300px;
+     border-radius: 50%; /* Makes it circular */
+     overflow: hidden; /* Ensures the image doesn't overflow */
+     background-color: lightgray; /* Optional: background for visibility */
+ }
+ 
+ /* Image Styling */
+ .profile_pic  img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover; /* Ensures the image fills the circular area */
+ }
+ 
